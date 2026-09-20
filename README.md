@@ -31,7 +31,7 @@ Together, these create a **virtuous cycle**: information helps people stay infor
 
 Open Git Bash or your preferred terminal and clone the repository:
 
-git clone [REPOSITORY-URL]
+git clone :https://github.com/Andre-muntet/safe-salama.git
 
 Make sure you are inside the safety-poc directory before continuing.
 

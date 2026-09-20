@@ -92,7 +92,9 @@ function handleOkay() {
           className="flex flex-col items-center gap-4 px-5 md:px-20 pt-16 pb-16 text-center"
           style={{ background: "linear-gradient(169deg,#fff 25%,#faf9f6 75%)" }}
         >
-          <h1 className="font-outfit font-bold text-[#0f172a] text-[48px] leading-[1.1]">Contribute</h1>
+         <div className="font-outfit font-bold text-[#0f172a] text-[48px] leading-[1.1]">
+  Contribute
+</div>
           <p className="font-geist font-normal text-[#475569] text-[18px] leading-[1.5] max-w-[640px]">
             Help build a better picture of safety in our communities. Share observations, files, or verified facts to empower local awareness and planning.
           </p>

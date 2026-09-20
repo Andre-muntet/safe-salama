@@ -21,7 +21,7 @@ export function TuneIn() {
             <div className="bg-[#d97706] h-[2px] w-6" />
             <span className="font-geist font-bold text-[#d97706] text-[12px] uppercase">Personalized Guidance</span>
           </div>
-          <h2 className="font-outfit font-bold text-[#0f172a] text-[36px] md:text-[40px] leading-[1.15]">Tune In</h2>
+          <div className="font-outfit font-bold text-[#0f172a] text-[36px] md:text-[40px] leading-[1.15]">Tune In</div>
           <p className="font-geist font-normal text-[#475569] text-[16px] leading-[1.6]">
             One piece of safety information selected for you, delivered how you want it.
           </p>

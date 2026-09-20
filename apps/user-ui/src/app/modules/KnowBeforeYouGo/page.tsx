@@ -32,7 +32,7 @@ export function KnowBeforeYouGo() {
             <ShieldCheck size={14} className="text-[#475569]" />
             <span className="font-geist font-bold text-[#475569] text-[12px] uppercase">PRE-TRIP PLANNING</span>
           </div>
-          <h2 className="font-outfit font-bold text-[#0f172a] text-[36px] md:text-[40px] leading-[1.15]">Know Before You Go</h2>
+          <div className="font-outfit font-bold text-[#0f172a] text-[36px] md:text-[40px] leading-[1.15]">Know Before You Go</div>
           <p className="font-geist font-normal text-[#475569] text-[16px] leading-[1.5]">
             Understand the safety landscape of any neighbourhood or destination before you arrive.
           </p>

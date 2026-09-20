@@ -23,7 +23,7 @@ export function SafetyBrief({ onSubjectOpen }: SafetyBriefProps = {}) {
       <div className="flex flex-col gap-6">
         <div className="flex flex-col gap-2">
           <p className="font-geist font-bold text-[#334155] text-[12px] uppercase tracking-wide">Platform Library</p>
-          <h1 className="font-outfit font-bold text-[#0f172a] text-[36px] md:text-[40px] leading-[1.15]">Safety Brief</h1>
+          <div className="font-outfit font-bold text-[#0f172a] text-[36px] md:text-[40px] leading-[1.15]">Safety Brief</div>
           <p className="font-geist font-normal text-[#475569] text-[16px] leading-[1.5]">
             Discover safety subjects worth knowing about. Stay informed. Stay Aware.
           </p>

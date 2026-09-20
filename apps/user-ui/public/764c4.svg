@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="56" height="8" viewBox="0 0 56 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="concern-level" clip-path="url(#clip0_0_15)">
+<circle id="filled" cx="4" cy="4" r="4" fill="#D97706"/>
+<circle id="filled_2" cx="16" cy="4" r="4" fill="#D97706"/>
+<circle id="filled_3" cx="28" cy="4" r="4" fill="#D97706"/>
+<circle id="empty" cx="40" cy="4" r="4" fill="#E2E5EA"/>
+<circle id="empty_2" cx="52" cy="4" r="4" fill="#E2E5EA"/>
+</g>
+<defs>
+<clipPath id="clip0_0_15">
+<rect width="56" height="8" fill="white"/>
+</clipPath>
+</defs>
+</svg>

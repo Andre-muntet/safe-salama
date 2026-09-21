@@ -15,7 +15,7 @@ export default function MyContributionsPage() {
           </div>
 
           <div className="flex flex-col gap-3">
-            <h1 className="font-outfit font-bold text-[#0f172a] text-[36px] leading-[1.15]">My Contributions</h1>
+            <div className="font-outfit font-bold text-[#0f172a] text-[36px] leading-[1.15]">My Contributions</div>
             <p className="font-geist font-normal text-[#475569] text-[16px] leading-[1.6]">
               Access your contributions using your secret PIN.
             </p>

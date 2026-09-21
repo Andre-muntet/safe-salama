@@ -141,35 +141,33 @@ function handleSend() {
           </div>
 
       
-          {/* Listening element — coming soon */}
-           <div className="flex flex-col items-center gap-3">
-  <div className="relative flex items-center justify-center size-[120px]">
-    {/* Animated concentric rings */}
-    <div
-      className="absolute inset-0 rounded-full border-[2px] border-[#d97706]/15"
-      style={{ animation: "listening-ping 3s ease-in-out infinite" }}
-    />
-    <div
-      className="absolute inset-[10px] rounded-full border-[2px] border-[#d97706]/25"
-      style={{ animation: "listening-ping 3s ease-in-out 0.4s infinite" }}
-    />
-    <div
-      className="absolute inset-[22px] rounded-full border-[2px] border-[#d97706]/40"
-      style={{ animation: "listening-ping 3s ease-in-out 0.8s infinite" }}
-    />
-    <div className="absolute inset-[36px] rounded-full border-[2px] border-[#d97706]/60" />
-    <div className="absolute inset-[48px] rounded-full bg-[#d97706]/10 border-[2px] border-[#d97706]" />
-  </div>
-
-  <div className="flex flex-col items-center gap-1">
-    <span className="font-geist font-semibold text-[#d97706] text-[13px]">
-      Listening coming soon
-    </span>
-    <span className="font-geist font-normal text-[#94a3b8] text-[12px] text-center max-w-[280px] leading-[1.4]">
-      Voice selection will eventually operate these same controls
-    </span>
-  </div>
+        
+           {/* Listening element — coming soon */}
+          <div className="flex flex-col items-center gap-3">
+            <div className="relative flex items-center justify-center size-[120px]">
+              {/* Animated concentric rings */}
+              <div
+                className="listening-ring absolute inset-0 rounded-full border-[2px] border-[#d97706]/35"
+                style={{ animationDelay: "0s" }}
+              />
+              <div
+                className="listening-ring absolute inset-[10px] rounded-full border-[2px] border-[#d97706]/45"
+                style={{ animationDelay: "0.4s" }}
+              />
+              <div
+                className="listening-ring absolute inset-[22px] rounded-full border-[2px] border-[#d97706]/55"
+                style={{ animationDelay: "0.8s" }}
+              />
+              <div className="absolute inset-[36px] rounded-full border-[2px] border-[#d97706]/60" />
+              <div className="absolute inset-[48px] rounded-full bg-[#d97706]/10 border-[2px] border-[#d97706]" />
             </div>
+            <div className="flex flex-col items-center gap-1">
+              <span className="font-geist font-semibold text-[#d97706] text-[13px]">Listening coming soon</span>
+              <span className="font-geist font-normal text-[#94a3b8] text-[12px] text-center max-w-[280px] leading-[1.4]">
+                Voice selection will eventually operate these same controls
+              </span>
+            </div>
+          </div>
         
         
           {/* Select all control */}

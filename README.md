@@ -33,7 +33,11 @@ Open Git Bash or your preferred terminal and clone the repository:
 
 git clone :https://github.com/Andre-muntet/safe-salama.git
 
-Make sure you are inside the safety-poc directory before continuing.
+Make sure you are at the root of the project. You can confirm this by running:
+
+npx nx show projects
+
+If the command lists the workspace projects, you are at the project root.
 
 Install the project dependencies:
 
